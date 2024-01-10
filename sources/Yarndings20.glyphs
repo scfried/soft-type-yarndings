@@ -1,11 +1,27 @@
 {
-.appVersion = "3151";
+.appVersion = "3234";
 .formatVersion = 3;
-DisplayStrings = (
-" "
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
 );
 date = "2023-07-27 16:41:47 +0000";
 familyName = "Yarndings 20";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
 fontMaster = (
 {
 id = m01;
@@ -63592,6 +63608,14 @@ width = 40;
 );
 }
 );
+instances = (
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+}
+);
 metrics = (
 {
 type = ascender;
@@ -63605,20 +63629,20 @@ type = descender;
 );
 properties = (
 {
-key = designers;
-values = (
-{
-language = dflt;
-value = "Sarah Cadigan-Fried";
-}
-);
-},
-{
 key = copyrights;
 values = (
 {
 language = dflt;
 value = "Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type)";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Sarah Cadigan-Fried";
 }
 );
 },
