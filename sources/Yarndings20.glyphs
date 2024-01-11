@@ -1,13 +1,63 @@
 {
-.appVersion = "3151";
+.appVersion = "3234";
 .formatVersion = 3;
-DisplayStrings = (
-" "
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
 );
 date = "2023-07-27 16:41:47 +0000";
 familyName = "Yarndings 20";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
 fontMaster = (
 {
+customParameters = (
+{
+name = typoAscender;
+value = 880;
+},
+{
+name = typoDescender;
+value = -80;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 880;
+},
+{
+name = winDescent;
+value = -80;
+},
+{
+name = hheaAscender;
+value = 880;
+},
+{
+name = hheaDescender;
+value = -80;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 id = m01;
 metricValues = (
 {
@@ -47333,17 +47383,6 @@ width = 760;
 unicode = 57;
 },
 {
-glyphname = hairspace;
-lastChange = "2023-11-03 13:28:16 +0000";
-layers = (
-{
-layerId = m01;
-width = 40;
-}
-);
-unicode = 8202;
-},
-{
 glyphname = space;
 lastChange = "2023-07-31 18:21:02 +0000";
 layers = (
@@ -47353,6 +47392,28 @@ width = 160;
 }
 );
 unicode = 32;
+},
+{
+glyphname = nbspace;
+lastChange = "2024-01-11 09:39:57 +0000";
+layers = (
+{
+layerId = m01;
+width = 160;
+}
+);
+unicode = 160;
+},
+{
+glyphname = hairspace;
+lastChange = "2023-11-03 13:28:16 +0000";
+layers = (
+{
+layerId = m01;
+width = 40;
+}
+);
+unicode = 8202;
 },
 {
 glyphname = period;
@@ -63592,6 +63653,14 @@ width = 40;
 );
 }
 );
+instances = (
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+}
+);
 metrics = (
 {
 type = ascender;
@@ -63605,6 +63674,15 @@ type = descender;
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-jersey)";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -63614,33 +63692,23 @@ value = "Sarah Cadigan-Fried";
 );
 },
 {
-key = copyrights;
-values = (
-{
-language = dflt;
-value = "Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type)";
-}
-);
-},
-{
 key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
-";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 }
 );
 settings = {
 gridLength = 40;
 };
-unitsPerEm = 1000;
+unitsPerEm = 960;
 versionMajor = 1;
 versionMinor = 0;
 }

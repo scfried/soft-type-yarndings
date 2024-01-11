@@ -1,13 +1,63 @@
 {
-.appVersion = "3151";
+.appVersion = "3234";
 .formatVersion = 3;
-DisplayStrings = (
-" "
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
 );
 date = "2023-07-27 16:41:47 +0000";
 familyName = "Yarndings 12";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
 fontMaster = (
 {
+customParameters = (
+{
+name = typoAscender;
+value = 910;
+},
+{
+name = typoDescender;
+value = -130;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 910;
+},
+{
+name = winDescent;
+value = 130;
+},
+{
+name = hheaAscender;
+value = 910;
+},
+{
+name = hheaDescender;
+value = -130;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 id = m01;
 metricValues = (
 {
@@ -20619,6 +20669,28 @@ width = 910;
 unicode = 57;
 },
 {
+glyphname = space;
+lastChange = "2024-01-11 09:39:07 +0000";
+layers = (
+{
+layerId = m01;
+width = 195;
+}
+);
+unicode = 32;
+},
+{
+glyphname = nbspace;
+lastChange = "2024-01-11 09:38:54 +0000";
+layers = (
+{
+layerId = m01;
+width = 195;
+}
+);
+unicode = 160;
+},
+{
 glyphname = hairspace;
 lastChange = "2023-11-03 13:28:59 +0000";
 layers = (
@@ -20628,16 +20700,6 @@ width = 65;
 }
 );
 unicode = 8202;
-},
-{
-glyphname = space;
-layers = (
-{
-layerId = m01;
-width = 200;
-}
-);
-unicode = 32;
 },
 {
 glyphname = period;
@@ -28460,6 +28522,14 @@ width = 65;
 );
 }
 );
+instances = (
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+}
+);
 metrics = (
 {
 type = ascender;
@@ -28473,6 +28543,15 @@ type = descender;
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-jersey)";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -28482,33 +28561,23 @@ value = "Sarah Cadigan-Fried";
 );
 },
 {
-key = copyrights;
-values = (
-{
-language = dflt;
-value = "Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type)";
-}
-);
-},
-{
 key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
-";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 }
 );
 settings = {
 gridLength = 65;
 };
-unitsPerEm = 1000;
+unitsPerEm = 1040;
 versionMajor = 1;
 versionMinor = 0;
 }
