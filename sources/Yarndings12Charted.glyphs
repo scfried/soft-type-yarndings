@@ -43,11 +43,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 910;
+value = 915;
 },
 {
 name = winDescent;
-value = 130;
+value = 200;
 },
 {
 name = hheaAscender;
@@ -105799,7 +105799,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-jersey)";
+value = "Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-yarndings)";
 }
 );
 },
