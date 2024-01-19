@@ -1,5 +1,7 @@
 <h1>The Soft Type Collection, Yarndings</h1>
 
+![Sample of Yarndings](documentation/soft-type-collection-promo-YARNDINGS-2-Standard.png)
+
 <h5>The Typeface</h5>
 <p>Yarndings is an ornamental typeface inspired by a mix of typographic ornamentation, traditional Fair Isle & Nordic knitting patterns, and dingbat fonts from the 1990’s.</p>
 
