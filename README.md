@@ -14,11 +14,8 @@
 
 <p>Note: for Fair Isle knitting you do need to beware of floats and plan accordingly as always.</p>
 
-<h5>Designers involved</h5>
-Designer: Sarah Cadigan-Fried
-With thanks to: 
-David Jonathan Ross
-Libbie Bischoff
+<h5>Designers Involved</h5>
+Designer: Sarah Cadigan-Fried <br>
 Copyright 2023 Sarah Cadigan-Fried (sarahcadiganfried@gmail.com)
 
 <h5>License</h5>
