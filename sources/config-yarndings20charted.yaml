@@ -2,3 +2,4 @@ sources:
   - Yarndings20Charted.glyphs
 familyName: Yarndings 20 Charted
 buildOTF: false
+extraFontmakeArgs: --filter "ufo2ft.filters.decomposeComponents::DecomposeComponentsFilter"
