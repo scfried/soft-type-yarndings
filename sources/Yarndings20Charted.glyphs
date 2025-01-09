@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3326";
 .formatVersion = 3;
 customParameters = (
 {
@@ -229757,5 +229757,5 @@ value = "https://openfontlicense.org";
 );
 unitsPerEm = 960;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
